@@ -182,6 +182,11 @@ pip install flask
 pip install python-dotenv
 
 pip install google-generativeai
+
+python -m venv venv
+
+venv\Scripts\activate
+
 ```
 
 ---
