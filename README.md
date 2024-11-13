@@ -43,6 +43,12 @@ Follow these steps to set up the project:
 1. Download and install [MySQL 8.0](https://dev.mysql.com/downloads/mysql/).
 2. Configure your database by following the setup instructions, creating necessary tables and entries for Pokémon data.
 
+# Setting up Node Js
+1. Download and install [NodeJs](https://nodejs.org/en).
+2. Open Windows Powershell as admin
+3. Enter the command (Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned)
+4. Once the prompt to change the execution policy appears Type (A) Yes to all, then Enter.
+
 #### Step 1: Create Your Database
 
 > **Note:** For testing purposes, it's recommended to create a new database.
@@ -175,6 +181,15 @@ Replace 'your_username' and 'your_password' with your MySQL username and passwor
 In the `/chatbot` terminal path of Visual Studio Code, enter the following commands to install required dependencies:
 
 ```Terminal
+
+npm init -y
+
+npm install express mysql bcryptjs jsonwebtoken
+
+npm install cors
+
+npm install express mysql2
+
 python -m pip install --upgrade pip
 
 pip install flask
